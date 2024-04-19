@@ -1,0 +1,264 @@
+body {
+  background-color: #efe7e3;
+}
+.frame {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* navigator */
+.navigator {
+  background-image: url(../myweb/img/checkup_navi-2.png);
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  display: inline;
+  align-self: center;
+  margin: 10px;
+}
+ul {
+  margin: 0;
+}
+.site-name-1 {
+  margin: 0;
+  font-family: 'naBrush', sans-serif;
+  font-size: 40px;
+  color: cadetblue;
+}
+.site-name-2 > a {
+  margin: 0;
+  font-family: 'naBrush', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(78, 191, 219);
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.nav-menu {
+  margin: 0;
+  font-family: 'naBrush', sans-serif;
+  font-size: 14px;
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a > .nav-menu {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/* dashboard section */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.dashboard_exp_kor {
+  margin: 0;
+  font-family: 'naBrush', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.dashboard_exp_en {
+  margin-top: 10px;
+  font-family: 'naBrush', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+/* info section*/
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 100px;
+}
+
+#profiile-picture {
+  width: 400px;
+  margin-right: 60px;
+}
+
+.introduction > h2 {
+  margin: 0px;
+  font-family: 'naBrush', sans-serif;
+  font-size: 35px;
+}
+.introduction > p {
+  font-family: 'naBrush', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 40px;
+}
+
+#capability {
+  font-family: 'naBrush', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+/* value section*/
+
+.value-menu {
+  font-family: 'naBrush', sans-serif;
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-left: 300px;
+  align-content: center;
+}
+
+.value-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 10px 10px;
+  margin-top: 20px;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.value-icon {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border: 2px solid gray;
+  border-radius: 30px;
+}
+
+.value-intro {
+  margin: 10px;
+}
+
+.value-name {
+  font-family: 'naBrush', sans-serif;
+  font-weight: 700px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.value-exp {
+  font-family: 'naBrush', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* recent section*/
+
+.recent-works_name {
+  font-family: 'naBrush', sans-serif;
+  font-size: 50px;
+  position: relative;
+  left: 400px;
+  margin: 10px;
+}
+
+.recent-works {
+  display: flex;
+  flex-direction: column;
+}
+.article {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.thumbnail {
+  width: 300px;
+}
+.article-info {
+  margin: 0px 20px;
+}
+.article-name {
+  font-family: 'naBrush', sans-serif;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.article-name:hover {
+  color: pink;
+  -webkit-text-stroke: 1px solid black;
+  transition: 0.3s;
+}
+.article-comment {
+  font-family: 'naBrush', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+.more {
+  width: content;
+  height: content;
+  float: right;
+  margin-right: 10px;
+  font-family: 'naBrush', sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+#name1-1 {
+  font-size: 40px;
+  position: relative;
+  right: 30px;
+  margin-bottom: 5px;
+}
+#name1-2 {
+  font-size: 40px;
+  position: relative;
+  right: 30px;
+  margin-bottom: 5px;
+}
+#name1-1:hover {
+  color: skyblue;
+}
+
+#name2-1 {
+  font-size: 40px;
+  text-align: right;
+  position: relative;
+  left: 30px;
+  margin-bottom: 5px;
+}
+#name2-2 {
+  font-size: 40px;
+  text-align: right;
+  position: relative;
+  left: 70px;
+  margin-bottom: 5px;
+}
+#name2-2:hover {
+  color: orange;
+}
+
+/* footer section*/
+.footer-comment {
+  text-align: center;
+}
+a[title='Freepik']:hover {
+  color: rgb(190, 167, 31);
+  text-decoration: underline;
+}
+a[title='Flaticon']:hover {
+  color: rgb(190, 167, 31);
+  text-decoration: underline;
+}
